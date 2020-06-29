@@ -1,0 +1,75 @@
+# Site Settings
+baseurl: ""
+url : "https://sacredvoid.github.io"
+
+# Blog Settings
+theme_settings :
+  title : Grape Theme
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/img/me.jpg
+    username : Samanvya Tripathi
+    description : Product Engineer - AI and Deep Learning
+    experience :
+      - start : July 2020
+        end : Current
+        experience : AI Product Engineer @ Myelin Foundry
+        location : Bangalore, India
+      - start : Jan 2020
+        end : June 2020
+        experience : Deep Learning Intern @ Myelin Foundry
+        location : Bangalore, India
+      - start : Dec 2018
+        end : Jan 2019
+        experience : Academic Intern @ National University of Singaopore
+        location : Singapore, Singapore
+      - start : June 2018
+        end : July 2018
+        experience : Summer Intern @ Cyient Ltd 
+        location : Hyderabad, India
+      - start : June 2017
+        end : July 2017
+        experience : Summer Intern @ Thrymr Pvt Ltd
+        location : Hyderabad, India
+    skills : 
+      - skill : Python
+        value : 80
+      - skill : Javascript
+      - skill : Deep Learning
+        value : 75
+    
+    education : 
+      - start : June 2016
+        end : July 2020
+        college : SRM Institute of Science and Technology
+        location : Kattankulathur, India
+
+  # Icons
+  icons :
+    email: samanvyat@gmail.com
+    linkedin: https://www.linkedin.com/in/samanvya-tripathi/ 
+    github: sacredvoid
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    twitter: samanvyat
+    youtube: UCyAFaIL8SeUBfWKKaOUPzXA
+    facebook:
+    instagram: samanvyatripathi
+
+  # Disqus
+  disqus_shortname :
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true

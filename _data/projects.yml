@@ -1,0 +1,16 @@
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  https://github.com/sacredvoid/Twitter-Sentiment-Analysis
+    image : # path: assets/project/
+    date : June 2018 - June 2018
+    title : Twitter Sentiment Analysis
+    summary : Worked on this project during my internship at Cyient Ltd.
+    description :  
+    contents : 
+        - title: 
+          image: 
+          description:
+        - title:
+          image:
+          description: <li>
