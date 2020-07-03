@@ -23,7 +23,7 @@ theme_settings :
         location : Bangalore, India
       - start : Dec 2018
         end : Jan 2019
-        experience : Academic Intern @ National University of Singaopore
+        experience : Academic Intern @ National University of Singapore
         location : Singapore, Singapore
       - start : June 2018
         end : July 2018
@@ -33,13 +33,12 @@ theme_settings :
         end : July 2017
         experience : Summer Intern @ Thrymr Pvt Ltd
         location : Hyderabad, India
-    skills : 
+    skills :  
       - skill : Python
-        value : 80
+      - skill : C/C++
+      - skill : Deep Learning 
       - skill : Javascript
-      - skill : Deep Learning
-        value : 75
-    
+      - skill : Bash
     education : 
       - start : June 2016
         end : July 2020

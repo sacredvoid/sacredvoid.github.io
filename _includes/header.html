@@ -13,8 +13,8 @@
       <a href="{{ site.url }}/portfolio">
         <li class="btn-nav">Portfolio</li>
       </a>
-      <a href="{{ site.url }}/photography">
-        <li class="btn-nav">Photography</li>
+      <a href="{{ site.url }}/about-me">
+        <li class="btn-nav">About Me</li>
       </a>
       <!-- portfolio -->
       {% when 'portfolio'%}
@@ -25,11 +25,11 @@
         <li class="btn-nav">Tags</li>
       </a>
       <li class="current">Portfolio</li>
-      <a href="{{ site.url }}/photography">
-        <li class="btn-nav">Photography</li>
+      <a href="{{ site.url }}/about-me">
+        <li class="btn-nav">About Me</li>
       </a>
-      {% when 'photography' %}
-      <!-- photography -->
+      {% when 'about-me' %}
+      <!-- about-me -->
       <a href="{{ site.url }}">
         <li class="current btn-nav">Blog</li>
       </a>
@@ -39,7 +39,7 @@
       <a href="{{ site.url }}/portfolio">
         <li class="btn-nav">Portfolio</li>
       </a>
-      <li class="btn-nav">Photography</li>
+      <li class="btn-nav">About Me</li>
       {% else %}
       <a href="{{ site.url }}"></a>
         <li class="current btn-nav">Blog</li>
@@ -50,8 +50,8 @@
       <a href="{{ site.url }}/portfolio">
         <li class="btn-nav">Portfolio</li>
       </a>
-      <a href="{{ site.url }}/photography">
-        <li class="btn-nav">Photography</li>
+      <a href="{{ site.url }}/about-me">
+        <li class="btn-nav">About Me</li>
       </a>
 
       {% endcase %}
