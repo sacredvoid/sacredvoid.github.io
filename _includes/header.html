@@ -10,36 +10,36 @@
         <li class="btn-nav">Blog</li>
       </a>
       <li class="current">Tags</li>
+      <a href="{{ site.url }}/about-me">
+        <li class="btn-nav">About</li>
+      </a>
       <a href="{{ site.url }}/portfolio">
         <li class="btn-nav">Portfolio</li>
       </a>
-      <a href="{{ site.url }}/about-me">
-        <li class="btn-nav">About Me</li>
-      </a>
       <!-- portfolio -->
-      {% when 'portfolio'%}
+      {% when 'about-me'%}
       <a href="{{ site.url }}">
         <li class="btn-nav">Blog</li>
       </a>
       <a href="{{ site.url }}/tags">
         <li class="btn-nav">Tags</li>
       </a>
-      <li class="current">Portfolio</li>
-      <a href="{{ site.url }}/about-me">
-        <li class="btn-nav">About Me</li>
+      <li class="current">About</li>
+      <a href="{{ site.url }}/portfolio">
+        <li class="btn-nav">Portfolio</li>
       </a>
-      {% when 'about-me' %}
+      {% when 'portfolio' %}
       <!-- about-me -->
       <a href="{{ site.url }}">
-        <li class="current btn-nav">Blog</li>
+        <li class="btn-nav">Blog</li>
       </a>
       <a href="{{ site.url }}/tags">
         <li class="btn-nav">Tags</li>
       </a>
-      <a href="{{ site.url }}/portfolio">
-        <li class="btn-nav">Portfolio</li>
+      <a href="{{ site.url }}/about-me">
+        <li class="btn-nav">About</li>
       </a>
-      <li class="btn-nav">About Me</li>
+      <li class="current">Portfolio</li>
       {% else %}
       <a href="{{ site.url }}"></a>
         <li class="current btn-nav">Blog</li>
@@ -47,11 +47,11 @@
       <a href="{{ site.url }}/tags">
         <li class="btn-nav">Tags</li>
       </a>
+      <a href="{{ site.url }}/about-me">
+        <li class="btn-nav">About</li>
+      </a>
       <a href="{{ site.url }}/portfolio">
         <li class="btn-nav">Portfolio</li>
-      </a>
-      <a href="{{ site.url }}/about-me">
-        <li class="btn-nav">About Me</li>
       </a>
 
       {% endcase %}
