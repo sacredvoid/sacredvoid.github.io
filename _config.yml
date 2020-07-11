@@ -59,7 +59,7 @@ theme_settings :
     instagram: samanvyatripathi
 
   # Disqus
-  disqus_shortname :
+  disqus_shortname : https-sacredvoid-github-io
 
 # Pagination
 paginate: 5
