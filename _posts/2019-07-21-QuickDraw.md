@@ -2,7 +2,7 @@
 layout: post
 title: QuickDraw Project @ NUS
 subtitle : Deep Dive into my project
-tags: [First post, Trial]
+tags: [Project, Coding]
 author: Samanvya Tripathi
 comments : True
 ---
