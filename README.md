@@ -1,5 +1,6 @@
 # sacredvoid.github.io
 
 [This website](https://sacredvoid.github.io) is made using the jekyll theme called: [Grape Theme](https://github.com/naye0ng/Grape-Theme). \
-I've made additional changes like an About Page, some theme changes, location (in Portfolio). A blog post on how to navigate this directory will be up by next week. \
+I've made additional changes like an About Page, some theme changes, location (in Portfolio). \
+Blog post on [how to create your own portfolio/landing page using Jekyll]() is out now! Check it out :)
 It's currently WIP, but you can feel free to fork and make it your own!
