@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Jekyll
 subtitle : Setup your portfolio page in minutes!
-tags: [First post, Trial]
+tags: [Coding, Website, Beginner, Jekyll]
 author: Samanvya Tripathi
 comments : True
 ---
