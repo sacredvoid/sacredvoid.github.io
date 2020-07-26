@@ -39,6 +39,7 @@ theme_settings :
       - skill : Deep Learning 
       - skill : Javascript
       - skill : Bash
+      - skill : Docker
     education : 
       - start : June 2016
         end : July 2020

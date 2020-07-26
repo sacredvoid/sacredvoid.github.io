@@ -20,7 +20,7 @@ Dynamic website that runs webapps which require real-time data updates like weat
 You write your content in a plain text format and jekyll will convert that into HTML and CSS for you.
 
 **In Programmer's terms:**
-You write your content in Markdown Format, with the .md file starting with a YAML front matter. This YAML front matter contains information regarding which layout you want this webpage to look like, what's the title of the blog, author name and tags related to your post. After you ask Jekyll to build your static webpage, it'll parse the YAML front matter and then use the layout settings of the theme to generate an HTML file with your content in it. Basically, Jekyll will treat whatever you write in the Markdown file as **content** and put that content in a **predefined layout**. You have the power to edit the layout however you want by adding your own HTML and CSS code (even Javascript). Hope that made sense. <br>
+You write your content in Markdown Format, with the .md file starting with a [YAML](https://blog.stackpath.com/yaml/) front matter. This YAML front matter contains information regarding which layout you want this webpage to look like, what's the title of the blog, author name and tags related to your post. After you ask Jekyll to build your static webpage, it'll parse the YAML front matter and then use the layout settings of the theme to generate an HTML file with your content in it. Basically, Jekyll will treat whatever you write in the Markdown file as **content** and put that content in a **predefined layout**. You have the power to edit the layout however you want by adding your own HTML and CSS code (even Javascript). Hope that made sense. <br>
 
 #### Standard Jekyll Project File Structure:
 
@@ -62,6 +62,9 @@ You write your content in Markdown Format, with the .md file starting with a YAM
 - _site_ : This is the place where Jekyll puts the generated static HTML webpages of your website.
 - _index.html_ : You can have as many pages here as you want, for example if your website has a blog page, about page and portfolio page, you should have three html files like blog.html, about.html and portfolio.html which all contain only the YAML front matter. Jekyll intelligently builds these html pages according to the layouts provided in _layouts_.
 
+#### Liquid:
+[Liquid](https://shopify.github.io/liquid/) is a templating language written in Ruby that helps you load dynamic content from the yaml files. Generally in Liquid you output content using two curly braces and perform logic statements by surrounding them in a curly brace percentage sign. It's simple and powerful!
+<br>
 #### Now let's get to the fun part and get our hands dirty with some code:
 
 ##### Prerequisites:
@@ -81,7 +84,7 @@ You write your content in Markdown Format, with the .md file starting with a YAM
 
 - To install dependencies in Gemlock file run:<br>
 ```bundle install```
-- Edit the contents of the _config.yml file and the projects.yml file inside the _data directory.
+- Edit the contents of the _config.yml file and the projects.yml file inside the _data directory. I've added Google Analytics as well, so head over to ga.html inside the _include folder and change the GA code to your unique code which you can get by making a new [Google Analytics account](https://analytics.google.com/).
 - Run the Jekyll server:<br>
 ```bundle exec jekyll serve```
 

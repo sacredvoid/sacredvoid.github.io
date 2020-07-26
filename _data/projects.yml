@@ -1,5 +1,5 @@
 - project :
-    print : False # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  https://github.com/sacredvoid/QuickDraw
     image : # path: assets/project/
@@ -7,15 +7,9 @@
     title : Quickdraw - LSTM and CNN
     summary : Worked on this project during my academic internship at NUS, Singapore
     description :  
-    contents : 
-        - title: 
-          image: 
-          description:
-        - title:
-          image:
-          description: <li> 
+    contents :  
 - project :
-    print : False # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  https://github.com/sacredvoid/Twitter-Sentiment-Analysis
     image : # path: assets/project/
@@ -24,9 +18,3 @@
     summary : Worked on this project during my internship at Cyient Ltd.
     description :  
     contents : 
-        - title: 
-          image: 
-          description:
-        - title:
-          image:
-          description: <li>
